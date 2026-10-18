@@ -1,8 +1,15 @@
 from books import show_books, load_books, save_books
-
+import os
+from dotenv import load_dotenv
 name = input("Enter your name: ")
 print("Welcome to Personal Book Manager,", name)
-
+admin_mode = input("do you want to enter admin mode (yes/no)? ")
+if admin_mode == "yes":
+    admin_password = input("enter admin password: ")
+    if admin_password == os.getenv("admin_pass"):
+        print("admin mode activated")
+    else:
+        print("wrong password")
 books = load_books()
 
 print("Your saved books:")
