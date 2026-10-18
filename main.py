@@ -1,6 +1,9 @@
 from books import show_books, load_books, save_books
 import os
 from dotenv import load_dotenv
+
+load_dotenv()
+
 name = input("Enter your name: ")
 print("Welcome to Personal Book Manager,", name)
 admin_mode = input("do you want to enter admin mode (yes/no)? ")
@@ -25,3 +28,4 @@ save_books(books)
 
 print("All your books:")
 show_books(books)
+save_books(books)
