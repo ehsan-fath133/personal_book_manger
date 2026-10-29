@@ -2,3 +2,4 @@ books.json
 *.log
 /__pycache__/
 *.env
+.vscode/
