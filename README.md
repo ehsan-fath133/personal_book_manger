@@ -38,11 +38,18 @@ python main.py
 ```
 
 ## screenshot
-![](img\image.png)
+![](imags1.png)
+
+
+![](imags2.png)
+
+
+![](imags3.png)
+
 
 
 ## Demo
-![](img/Animation.gif)
+![](Animation.gif)
 
 
 ## project Structure
