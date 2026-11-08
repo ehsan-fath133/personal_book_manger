@@ -1,6 +1,6 @@
 # Personall Book manager
 This is a simple project for storing your books.
-
+![Python](https://img.shields.io/badge/Python-3-blue?=white)
 # Features
 - Adding a few books
 - Display Books
@@ -38,8 +38,46 @@ python main.py
 ```
 
 ## screenshot
-![](img\image.png)
+![](imags1.png)
+
+
+![](imags2.png)
+
+
+![](imags3.png)
+
 
 
 ## Demo
-![](img/Animation.gif)
+![](Animation.gif)
+
+
+## project Structure
+
+- main.py
+
+- books.py
+
+- .gitignore
+
+- .env.example
+
+- requirements.txt
+
+- images/
+
+## How It Works
+1. The program asks for your name.
+2. It welcomes you.
+3. It asks if you want to use Admin Mode.
+4. If you choose yes, it asks for your password.
+5. It loads previously saved books.
+6. You enter the number of books.
+7. You enter the book names.
+8. The program displays and saves your books.
+
+
+## Troubleshooting
+
+- Error FileNotFoundError
+  
