@@ -1,12 +1,21 @@
 # Personall Book manager
 This is a simple project for storing your books.
 ![Python](https://img.shields.io/badge/Python-3-blue?=white)
+
+
+- this power priority:
+```
+low
+medium
+high
+```
+
 # Features
 - Adding a few books
 - Display Books
 - Saving Books
 - Reading saved books
-  
+- add priority
 # Requirements
 - python
 - python-dotenv
