@@ -1,5 +1,5 @@
 # Personall Book manager
-This is a simple project for storing your books.
+This is a simple project for storing your books and fixs your book
 ![Python](https://img.shields.io/badge/Python-3-blue?=white)
 
 
